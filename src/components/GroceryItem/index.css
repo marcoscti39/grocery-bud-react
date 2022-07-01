@@ -1,0 +1,43 @@
+.grocery-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    padding: .3rem .8rem;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    transition: all 300ms
+
+}
+.grocery-item:hover{
+    background-color: hsl(206, 33%, 96%);
+    color: rgb(65, 64, 64);
+}
+
+.icons-wrapper{
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+
+.item-edit-btn{
+    background-color: transparent;
+    color: green;
+    border:none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.1rem;
+    transform: translateY(2px);
+
+
+}
+.item-remove-btn{
+    background-color: transparent;
+    border: none;
+    color: rgb(201, 3, 3);
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.1rem;
+    transform: translateY(2px);
+
+}

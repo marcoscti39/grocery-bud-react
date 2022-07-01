@@ -1,0 +1,65 @@
+.grocery-container{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    min-width: 200px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+.grocery-form{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.grocery-input{
+    background-color: hsl(206, 33%, 96%);
+    border: none;
+    flex: 1;
+}
+.grocery-add-btn{
+    text-transform: capitalize;
+    color: black;
+    background-color: hsl(206, 100%, 56%);
+    border: none;
+    font-size: .9rem;
+    padding: .5rem .7rem;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    transition: all 300ms;
+    letter-spacing: 2px;
+
+}
+.grocery-add-btn:hover{
+    background-color: hsl(206, 83%, 50%);
+
+}
+.grocery-items-container{
+    width: 100%;
+}
+
+.grocery-clear-btn{
+    color: rgb(209, 1, 1);
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.grocery-clear-btn:hover{
+    color: red;
+}
+
